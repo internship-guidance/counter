@@ -5,26 +5,25 @@ export default StyleSheet.create({
     justifyContent: 'flex-end',
     alignItems: 'center',
     flex: 1,
-    backgroundColor: '#232528',
-
+    backgroundColor: '#232528'
   },
   subView: {
     flexDirection: 'row',
     justifyContent: 'center',
-    alignItems: "center",
-    backgroundColor: '#232528',
+    alignItems: 'center',
+    backgroundColor: '#232528'
   },
   counter: {
     justifyContent: 'space-between',
     alignItems: 'flex-end',
-    flexWrap: "wrap",
+    flexWrap: 'wrap',
     fontSize: 50,
     color: 'white',
     padding: 80,
-    margin: 30,
+    margin: 30
   },
   reset: {
-    alignItems: "center",
+    alignItems: 'center',
     textAlign: 'center',
     backgroundColor: '#5B8930',
     fontSize: 30,
@@ -54,8 +53,8 @@ export default StyleSheet.create({
     margin: 5
   },
   scoreShare: {
-    textAlignVertical: "center",
-    textAlign: "center",
+    textAlignVertical: 'center',
+    textAlign: 'center',
     backgroundColor: '#5B8930',
     fontSize: 20,
     color: 'white',
@@ -64,6 +63,6 @@ export default StyleSheet.create({
     padding: 5,
     margin: 5,
     height: 50,
-    width: 300,
+    width: 300
   }
-})   
+});
